@@ -79,4 +79,4 @@ void main(void) // função principal
 	 } while (TRUE); // mantem o laço de repetição rodando em loop infinito
 }
 
-// FIM DO CÓDIGO
+// FIM DO CODIGO
