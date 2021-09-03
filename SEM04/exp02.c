@@ -22,7 +22,7 @@ void main(void) {
 }
 
 void __interrupt() funcao(){
-    if(INTCONbits.INT0E == 1){
+    if(INTCONbits.INT0IE == 1){
         INTCONbits.INT0IF = 0;
         
         PORTD |= 0b00000001;
